@@ -146,7 +146,7 @@ class FranceTVAddon:
         video_id = self._params["id"]
 
         is_helper = Helper("mpd")
-        use_dash = bool(is_helper.check_inputstream())
+        #use_dash = bool(is_helper.check_inputstream())
         video_url = FranceTVVideo().get_video_url(video_id, use_dash)
 
         # Workaround for
