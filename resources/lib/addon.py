@@ -128,7 +128,7 @@ class FranceTVAddon:
         #    self._handle, xbmcplugin.SORT_METHOD_UNSORTED, label2Mask="%Z"
         #)
         xbmcplugin.addSortMethod(
-            self._handle, xbmcplugin. SORT_METHOD_EPISODE
+            self._handle, xbmcplugin.SORT_METHOD_EPISODE
         )
 
         level = None  # type: Optional[int]
